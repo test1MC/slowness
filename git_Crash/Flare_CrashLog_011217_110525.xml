@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapExceptionLog protocol="1" executable="Flare" executableVersion="13.1.6219.3621" localDate="2017-01-12T11:05:25.0565947-08:00">
+    <OS arch="x64" frameworkVersion="4.0.30319.42000" version="Microsoft Windows NT 10.0.10586.0" />
+    <Exception type="System.NullReferenceException" message="Object reference not set to an instance of an object." stackTrace="   at B3.CatapultMdiEditorKit.CatapultMdiEditor.AttachToSourceControl(CatapultProject proj, Boolean showGetLatestPrompt)&#xD;&#xA;   at B3.CatapultMdiEditorKit.CatapultMdiEditor.AttachToSourceControl(CatapultProject proj, Boolean showGetLatestPrompt)&#xD;&#xA;   at B3.CatapultMdiEditorKit.CatapultMdiEditor.LoadProject(IUrl url)&#xD;&#xA;   at B3.CatapultMdiFlareFullDependencyKit.CatapultFlareFullDependencyMdiEditor.LoadProject(IUrl url)&#xD;&#xA;   at B3.CatapultMdiEditorKit.CatapultMdiEditor.OpenContainedEditor(IUrl url)&#xD;&#xA;   at B3.AppKit.Editor.OnFileOpenRecentProjectCommand(CommandContext cc)&#xD;&#xA;   at B3.AppKit.CommandRouter.Invoke(CommandContext cc)&#xD;&#xA;   at B3.AppKit.CommandRouter.TryInvoke(CommandContext cc)" source="B3.CatapultMdiEditorKit" />
+    <User machineID="df366574ca7d5f3a2d6ec89568fd1391b7e024e1" />
+</MadCapExceptionLog>

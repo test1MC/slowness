@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapExceptionLog protocol="1" executable="Flare" executableVersion="13.1.6219.3621" localDate="2017-01-12T11:25:07.6841883-08:00">
+    <OS arch="x64" frameworkVersion="4.0.30319.42000" version="Microsoft Windows NT 10.0.10586.0" />
+    <Exception type="System.NullReferenceException" message="Object reference not set to an instance of an object." stackTrace="   at B3.SourceSafeKit.GitProvider.OnFileSourceControlBranchCommand(CommandContext cc)&#xD;&#xA;   at B3.AppKit.Editor.OnCommand(CommandContext cc)&#xD;&#xA;   at B3.AppKit.CommandRouter.Update(CommandContext cc)&#xD;&#xA;   at B3.AppKit.CommonViewModel.UpdateUI(ControlData data, Boolean loadItems)&#xD;&#xA;   at B3.AppKit.CommonViewModel.UpdateUI()&#xD;&#xA;   at B3.AppKit.CommonViewModel.ResumeUpdate()&#xD;&#xA;   at System.EventHandler.Invoke(Object sender, EventArgs e)&#xD;&#xA;   at System.Windows.Threading.DispatcherTimer.FireTick(Object unused)&#xD;&#xA;   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)&#xD;&#xA;   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)" source="B3.SourceSafeKit" />
+    <User machineID="df366574ca7d5f3a2d6ec89568fd1391b7e024e1" />
+</MadCapExceptionLog>
